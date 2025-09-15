@@ -1,0 +1,27 @@
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore environment and secrets
+.env
+env.example
+
+# Ignore database and log files
+eva_lite.db
+*.db
+eva_lite.log
+*.log
+*.sqlite3
+
+# Ignore test and build cache
+.pytest_cache/
+
+# Ignore editor and system files
+.DS_Store
+.vscode/
+.streamlit/
+
+# Node and package files
+package-lock.json
+node_modules/

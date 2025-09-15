@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+openai
+sqlmodel
+apscheduler
+python-dotenv
+twilio
+streamlit
+requests
+pydantic
+pydantic-settings
+google-generativeai
+pytest
